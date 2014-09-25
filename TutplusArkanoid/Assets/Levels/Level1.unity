@@ -87,7 +87,7 @@ GameObject:
   - 114: {fileID: 36291212}
   m_Layer: 0
   m_Name: Orange Block
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,7 +200,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 48324477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.37141752, y: -.242163062, z: 0}
+  m_LocalPosition: {x: -8.56237984, y: -.242163062, z: 0}
   m_LocalScale: {x: 1, y: 1.75299966, z: 1}
   m_Children: []
   m_Father: {fileID: 834857641}
@@ -240,8 +240,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 73080218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.145309865, y: 4.86279058, z: 0}
-  m_LocalScale: {x: 4.00064754, y: 1, z: 1}
+  m_LocalPosition: {x: -.131601751, y: 4.86279058, z: 0}
+  m_LocalScale: {x: 3.54419994, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 834857641}
   m_RootOrder: 0
@@ -339,7 +339,7 @@ GameObject:
   - 114: {fileID: 355049289}
   m_Layer: 0
   m_Name: Green Block
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -500,7 +500,7 @@ GameObject:
   - 114: {fileID: 787264646}
   m_Layer: 0
   m_Name: Yellow Sprite
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -621,7 +621,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 961565018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.07644939, y: -.280947149, z: 0}
+  m_LocalPosition: {x: 8.30914593, y: -.280947149, z: 0}
   m_LocalScale: {x: .967066407, y: 1.76056349, z: 1}
   m_Children: []
   m_Father: {fileID: 834857641}
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6718895ae9a5b934eb5f37f89d8a547e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerVelocity: .300000012
+  playerVelocity: 6
   boundary: 4.9000001
   dieSound: {fileID: 8300000, guid: 6ea789aee685deb4ea7a1d83ab64a726, type: 3}
   pointSound: {fileID: 8300000, guid: 788312ef25a31f84093f92a8416571b5, type: 3}
@@ -808,6 +808,7 @@ GameObject:
   - 92: {fileID: 1107327705}
   - 124: {fileID: 1107327704}
   - 81: {fileID: 1107327703}
+  - 114: {fileID: 1107327708}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -875,11 +876,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107327702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -15.7853966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &1107327708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1107327702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d463f832ab23746a1bdbb18be67910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wantedAspectRatio: 1.77777779
 --- !u!1 &1342883541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,7 +1153,7 @@ GameObject:
   - 114: {fileID: 1698376747}
   m_Layer: 0
   m_Name: Blue Block
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

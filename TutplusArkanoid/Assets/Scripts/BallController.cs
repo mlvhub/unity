@@ -8,6 +8,8 @@ public class BallController : MonoBehaviour {
 	private Vector2 ballInitialForce;
 	public AudioClip hitSound;
 
+	private PlatformInputHandler inputHandler = InputHandler.PlatformInput;
+
 	// GameObject
 	public PlayerController player;
 
@@ -28,7 +30,7 @@ public class BallController : MonoBehaviour {
 
 		if (!ballIsActive && player != null){
 			// check for user input
-			if (Input.GetButtonDown("Jump")) {
+			if (inputHandler.TouchTop()) {
 				// check if is the first play
 				rigidbody2D.isKinematic = false;
 				// add a force

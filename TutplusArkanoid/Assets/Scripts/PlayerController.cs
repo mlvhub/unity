@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour {
 	public AudioClip dieSound;
 	public AudioClip pointSound;
 
+	private PlatformInputHandler inputHandler = InputHandler.PlatformInput;
+
 	// Use this for initialization
 	void Start () {
 		playerPosition = gameObject.transform.position;
@@ -25,7 +27,15 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// horizontal movement
-		playerPosition.x += Input.GetAxis("Horizontal") * playerVelocity;
+		if (inputHandler.TouchBottom()) {
+			if (inputHandler.TouchLeft()) {
+				Debug.Log("Moving Left");
+				playerPosition. x -= playerVelocity * Time.deltaTime;
+			} else if (inputHandler.TouchRight()) {
+				Debug.Log("Moving Right");
+				playerPosition.x += playerVelocity * Time.deltaTime;
+			}
+		}
 		
 		// leave the game
 		if (Input.GetKeyDown(KeyCode.Escape)){
