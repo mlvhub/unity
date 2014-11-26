@@ -64,8 +64,8 @@ TextureImporter:
         y: 148
         width: 96
         height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .473902196, y: .445975542}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_1
       rect:
@@ -75,7 +75,7 @@ TextureImporter:
         width: 68
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_2
       rect:
@@ -84,8 +84,8 @@ TextureImporter:
         y: 229
         width: 51
         height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .889172137, y: .679575205}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_3
       rect:
@@ -95,7 +95,7 @@ TextureImporter:
         width: 547
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_4
       rect:
@@ -104,8 +104,8 @@ TextureImporter:
         y: 174
         width: 48
         height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .834734619, y: .84773773}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_5
       rect:
@@ -114,8 +114,8 @@ TextureImporter:
         y: 157
         width: 25
         height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .3072882, y: .855158865}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_6
       rect:
@@ -124,8 +124,8 @@ TextureImporter:
         y: 115
         width: 23
         height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .582893729, y: .892715454}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_7
       rect:
@@ -134,8 +134,8 @@ TextureImporter:
         y: 121
         width: 38
         height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .598420799, y: .176109761}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_8
       rect:
@@ -144,8 +144,8 @@ TextureImporter:
         y: 62
         width: 101
         height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .416523278, y: .0889572874}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_9
       rect:
@@ -155,7 +155,7 @@ TextureImporter:
         width: 275
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_10
       rect:
@@ -164,8 +164,8 @@ TextureImporter:
         y: 2
         width: 45
         height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .664869368, y: .161269143}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_11
       rect:
@@ -174,8 +174,8 @@ TextureImporter:
         y: 2
         width: 42
         height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .500000536, y: .851802707}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_12
       rect:
@@ -184,8 +184,8 @@ TextureImporter:
         y: 3
         width: 45
         height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .512255549, y: .838624597}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas_13
       rect:
@@ -195,7 +195,7 @@ TextureImporter:
         width: 824
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
